@@ -1,6 +1,7 @@
 # domains-quality-checker
 an API to check if a url or IP address  is safe or phishing.
 Using a ML model.
+The API created using FastAPI.
 
 ## Install the requirements
 pip install -r requirements.txt
