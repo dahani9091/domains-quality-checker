@@ -10,6 +10,7 @@ cd path/to/project/folder
 uvicorn api:app
 
 ## Request url format
+(if you're using the local host)
 http://127.0.0.1:8000/predict?input='url or ip_adress'
 
 ## API responses :
@@ -19,7 +20,7 @@ responce = {
     'Prediction':'safe'or 'phishing',
     'Status' :'Data saved seccessfully'
 }
-- if the url or ip_adress not entred in a correct format. 
+- if the url or ip_adress are not sent in a correct format. 
 responce = {
     'input':'url or ip_adress',
     'Status': 'Invalid input format'
