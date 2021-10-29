@@ -13,8 +13,8 @@ uvicorn api:app
 http://127.0.0.1:8000/predict?input=<url or ip_adress>
 
 ## API responses :
-- if the data saved seccessfully
-responce = {
+- if the data saved seccessfully \n
+responce = {\n
     'input':<url or ip_adress>,
     'Prediction':<'safe'or 'phishing'>,
     'Status' :'Data saved seccessfully'
