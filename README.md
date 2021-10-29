@@ -26,7 +26,7 @@ responce = {
     'Status': 'Invalid input format'
 }
 
-- Sometimes the number of features generated of url not equal to 30, if it is the case : 
+- Sometimes the number of features generated of an url not equal to 30, if it is the case : 
 responce = {
     'input':'url or ip_adress',
     'Status': 'Number of features generated not equal to 30'
