@@ -10,7 +10,7 @@ pip install -r requirements.txt
 cd path/to/project/folder
 uvicorn api:app
 
-## Request url format
+## API Endpoints
 -> API endpoint : /predict?input='url or ip_adress'
 -> if you're using the local host:
 http://127.0.0.1:8000/predict?input='url or ip_adress'
