@@ -11,7 +11,8 @@ cd path/to/project/folder
 uvicorn api:app
 
 ## Request url format
-(if you're using the local host)
+-> API endpoint : /predict?input='url or ip_adress'
+-> if you're using the local host:
 http://127.0.0.1:8000/predict?input='url or ip_adress'
 
 ## API responses :
